@@ -77,7 +77,7 @@ $stylesVersion = date('Y-m-d_H-i-s', filemtime(__DIR__.'/styles.css'));
         <?= $resume->phoneEmailSocialLinksIfExists(true)."\n"?>
     </div>
     <div class="other">
-        Work History or References provided upon request. This resume was created by me using: PHP, HTML and CSS.
+        Work History or References provided upon request. This resume was created from <a href="https://github.com/relipse/JKHighlightResume">github.com/relipse/JKHighlightResume</a> using: PHP, HTML and CSS.
     </div>
 </footer>
 <!-- If you see this, you should hire me :) This resume was created in PHP and condensed to print on 1 page. -->
