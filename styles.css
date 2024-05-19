@@ -1,0 +1,213 @@
+h1{
+    margin: 0;
+}
+ul {
+    margin-top: 0;
+}
+body > div {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* This is your normal link style */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* This is your visited link style */
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+footer div.contact {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+footer {
+    text-align: center;
+}
+
+@page {
+    size: portrait;
+    margin: 0mm 1mm 0mm 1mm;
+}
+body {
+    margin: 1mm;
+    padding: 1mm;
+}
+td.subskill{
+    padding-left: 10px;
+}
+
+td.self-rating {
+    text-align: center;
+}
+
+h1 { font-size: 1.5em; text-align: left; }
+
+body {
+    font-family: "Courier New";
+    font-size: 0.8em;
+}
+
+td.self-rating::after{
+    content: '/10';
+}
+
+/* Apply grayscale colors to odd and even rows */
+table tr:nth-child(odd) td {
+    background-color: #eae9e9;
+    color: #000; /* Black text for better contrast */
+}
+
+table tr:nth-child(even) td {
+    background-color: #fff;
+    color: #000; /* Black text for better contrast */
+}
+
+.highlights a {
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 1px;
+    margin-top: 3px;
+}
+h3 {
+    font-size: 0.95em;
+    margin: 0;
+    padding: 0;
+}
+
+ul.experiences {
+    list-style-type: none;
+}
+
+ul.experiences .dates {
+    font-weight: bold;
+}
+
+ul.experiences .company {
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+/* it looks fine with regular indents
+ul.skill {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.skill li {
+    display: inline;
+}
+
+ul.skill li::after {
+    content: ", ";
+}
+
+ul.skill li:last-child::after {
+    content: "";
+}
+
+ul.skill ul::before {
+    content: " (";
+}
+
+ul.skill ul::after {
+    content: ")";
+}
+
+ */
+
+footer {
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+h1 .yrs {
+    font-size: smaller;
+}
+
+p:first-child {
+    display: inline;
+}
+p {
+    margin: 0;
+    padding: 0;
+    text-indent: 20px;
+    padding-bottom: 1px;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+body > div.flex-item {
+    flex: 50%;
+    flex-basis: 50%;
+    padding-bottom: 0;
+    margin-bottom: -20px;
+
+}
+
+ul.skills.sub:not([data-indent="2"]),
+ul.condensed.skills{
+    list-style-type: none; /* Removes the bullets */
+    margin: 0; /* Removes margins and padding */
+    padding: 0;
+    overflow-wrap: break-word; /* Breaks the line at normal word boundaries if necessary */
+    display: flex; /* Allows inline display and text wrapping */
+    flex-wrap: wrap;
+}
+
+ul.skills.sub li:not([data-indent="2"]), ul.condensed.skills li {
+    padding-left: 2px;
+    white-space: nowrap; /* Prevents individual list items from breaking across lines */
+}
+
+.experiences li {
+    margin-bottom: 8px;
+}
+ul.skills.sub li:not(:last-child):not([data-indent="2"])::after,
+ul.condensed.skills li:not(:last-child)::after {
+    content: ', '; /* Adds a comma after each list item except the last one */
+}
+
+ul.highlights {
+    list-style-type: none;
+}
+ul.highlights{
+    margin-left: -35px;
+}
+
+div > ul.skills {
+    margin-left: -25px;
+    margin-bottom: 1px;
+}
+
+ul.experiences {
+    padding-left: 0;
+}
+
+ul.experience-list li {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
